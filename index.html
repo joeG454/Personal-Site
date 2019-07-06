@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joseph P Griffith</title>
+<link rel="stylesheet" href="helpers.css">
+<link href="https://fonts.googleapis.com/css?family=Kadwa&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-color-blue width-100">
+  <h1 class="text-left margin-auto margin-left-5">Joseph P Griffith</h1>
+</div>
+
+<div class="width-100 display-block">
+    <img class="img-responsive" src="images/flagstaff-hero.jpg" alt="An image of the peaks in Flagstaff AZ">
+    <nav>
+      <a href="">
+        <div class="display-inline-block padding-5">
+          <p class="all-caps underline text-center">About Me</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="display-inline-block padding-5">
+          <p class="all-caps underline text-center">Resume</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="display-inline-block padding-5">
+          <p class="all-caps underline text-center">Projects</p>
+        </div>
+      </a>
+    </nav>
+
+    <div id="content">
+
+    </div>
+</div>
+
+
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function (){
+      $("#btn").click(function(){
+        $("content").load();
+      });
+    });
+</script>
+</html>
