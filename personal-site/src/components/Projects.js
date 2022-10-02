@@ -29,14 +29,16 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-orange-500 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-black mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                <div className="relative w-full border-4 border-gray-800 project-wrapper">
+                    <div className="opacity-0 hover:opacity-100 bg-white px-8 py-10 project-overlay">
+                        <h2 className="tracking-widest text-sm title-font font-medium text-orange-500 mb-1">
+                        {project.subtitle}
+                        </h2>
+                        <h1 className="title-font text-lg font-medium text-black mb-3">
+                        {project.title}
+                        </h1>
+                        <p className="leading-relaxed">{project.description}</p>
+                    </div>
                 </div>
               </div>
             </a>

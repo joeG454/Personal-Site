@@ -2,19 +2,19 @@
 
 export const projects = [
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Blog App",
+      subtitle: "Next.js and Firebase",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
+        "A full-stack Social Blogging Platform inspired by sites like DEV.to and Medium using Next.js and Firebase.",
+      image: "./nextfire.png",
       link: "https://jsbootcamp.com",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Trails of Arizona App",
+      subtitle: "Node and Mapbox",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
+        "An interactive map of offroading trails in Arizona. Built using a from-scratch Node server and Mapbox API",
+      image: "./mapbox.gif",
       link: "https://pythonbootcamp.com",
     }
 ];
@@ -38,5 +38,21 @@ export const testimonials = [
         image: "./project-4.gif",
         name: "Austin Smith",
         company: "Deckers Brands"
+    }
+]
+
+export const certs = [
+    {
+        title: 'Salesforce Certified B2C Commerce Developer',
+        issuer: 'Salesforce',
+        date: 'Mar 2020',
+        id: 'Credential ID: 20969805',
+        image: './salesforce-logo.png'
+    },
+    {
+        title: 'Bachelor of Science Applied Computer Science',
+        issuer: 'Northern Arizona University',
+        date: 'May 2018',
+        image: './nau-logo.png'
     }
 ]

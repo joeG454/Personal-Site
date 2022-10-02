@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.project-wrapper {
+    min-height: 230px;
+}
+
+.project-overlay {
+    height: 100%;
+}
+
+.skill-wrapper {
+    width: 49%;
+}
+
+.cert-icon {
+    max-width: 180px;
+}
+
+.hero-img {
+    background-color: #f3f3f3;
+}
