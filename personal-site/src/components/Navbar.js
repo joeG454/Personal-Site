@@ -17,8 +17,14 @@ export default function Navbar() {
                 <a href="#skills" className="mr-5 hover:text-black">
                     Skills
                 </a>
+                <a href="#credentials" className="mr-5 hover:text-black">
+                    Credentials
+                </a>
                 <a href="#testimonials" className="mr-5 hover:text-black">
                     Testimonials
+                </a>
+                <a href="./Joseph_Griffith_Resume.pdf" className="mr-5 hover:text-black" target="_blank">
+                    Resume
                 </a>
                 </nav>
                 <a

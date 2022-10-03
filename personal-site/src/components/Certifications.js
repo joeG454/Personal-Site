@@ -14,9 +14,6 @@ export default function Certifications() {
             Certifications &amp; Education
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
           </p>
         </div>
         <div className="md:w-1/2 w-full sm:mx-auto sm:mb-2">

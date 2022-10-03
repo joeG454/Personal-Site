@@ -35,7 +35,7 @@ export const testimonials = [
     },
     {
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
+        image: "./austin.jpeg",
         name: "Austin Smith",
         company: "Deckers Brands"
     }

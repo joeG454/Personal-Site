@@ -9,13 +9,11 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center self-center pl-10">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Hi, I'm Joe.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I'm a developer with 5 years of professional experince and a true passion for what I do. Working primarily in the e-commerce space, I pride
+            myself in being a team-oriented developer. Someone who is always willing to explain my reasoning and teach others. If that sounds like someone 
+            you could use on your team please reach out below.
           </p>
           <div className="flex justify-center">
             <a
