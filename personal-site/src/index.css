@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-gradient {
+    background: rgb(99,102,241);
+    background: linear-gradient(13deg, rgba(99,102,241,1) 0%, rgba(255,255,255,1) 75%);
+}
+
 .project-wrapper {
     min-height: 230px;
 }

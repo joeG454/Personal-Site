@@ -5,7 +5,7 @@ import React from "react";
 export default function About() {
   return (
     <section id="about">
-      <div className="bg-white mx-auto flex items-center flex-wrap-reverse lg:flex-nowrap">
+      <div className="mx-auto flex items-center flex-wrap-reverse lg:flex-nowrap">
         <div className="w-5/6 mx-auto xl:max-w-4xl lg:max-w-xl lg:flex-grow lg:pr-24 lg:pr-16  flex flex-col lg:items-start lg:text-left mb-16 md:mb-0 items-center text-center self-center pl-3 pr-3 pt-5 lg:pl-10">
             <div className="text-wrapper">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
@@ -30,7 +30,7 @@ export default function About() {
             </div>
         </div>
         <div className="w-full hero-img lg:flex-grow lg:flex-shrink">
-          <img class="image-responsive" src="./phx.jpeg" alt="Phoenix AZ" />
+          <img className="image-responsive" src="./phx.jpeg" alt="Phoenix AZ" />
         </div>
       </div>
     </section>

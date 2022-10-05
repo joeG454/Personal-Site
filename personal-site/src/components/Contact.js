@@ -15,20 +15,21 @@ export default function Contact() {
         .join("&");
     }
     
-    function handleSubmit() {
-       /* fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", name, email, message }),
+    function handleSubmit(e) {
+        e.preventDefault();
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", name, email, message }),
         })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));*/
-    }    
+          .then(() => alert("Message sent!"))
+          .catch((error) => alert(error));
+    }   
       
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-            <div className="w-full lg:w-2/3 md:w-1/2 bg-white overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <div className="w-full lg:w-2/3 md:w-1/2 border-4 bg-white border-white rounded overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe
                 width="100%"
                 height="100%"
@@ -66,8 +67,8 @@ export default function Contact() {
             <form
                 netlify
                 name="contact"
-                onSubmit={handleSubmit()}
-                className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                onSubmit={handleSubmit}
+                className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 border-4 bg-white border-white rounded px-5">
                 <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Hire Me
                 </h2>
@@ -82,7 +83,7 @@ export default function Contact() {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full bg-white  border border-gray-700 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white  border border-gray-700 focus:border-orange-500 rounded focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-600 bg-opacity-40 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
                 </div>
                 <div className="relative mb-4">
@@ -93,7 +94,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full bg-white  border border-gray-700 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white  border border-gray-700 focus:border-orange-500 focus:ring-2 rounded focus:ring-orange-500 text-base outline-none text-gray-600 bg-opacity-40 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
                 </div>
                 <div className="relative mb-4">
@@ -105,7 +106,7 @@ export default function Contact() {
                 <textarea
                     id="message"
                     name="message"
-                    className="w-full bg-white  border border-gray-700 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white  border border-gray-700 focus:border-orange-500 focus:ring-2 rounded focus:ring-orange-500 h-32 text-base outline-none text-gray-600 bg-opacity-40 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 />
                 </div>
                 <button

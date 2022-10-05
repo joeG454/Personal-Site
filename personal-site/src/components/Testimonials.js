@@ -15,7 +15,7 @@ export default function Testimonials() {
                 <div className="flex flex-wrap m-4">
                     {testimonials.map((testimonial) => (
                         <div className="custom-50-wrapper w-full m-1 testimonial-wrapper">
-                            <div className="h-full bg-white bg-opacity-40 p-8 ">
+                            <div className="h-full bg-white border-gray-800 rounded p-8 ">
                                 <TerminalIcon className="block w-8 text-neutral-900 mb-4" />
                                 <p className="leading-relaxed mb-6 testimonial">{testimonial.quote}
                                     <span className="dots font-medium">...</span>
