@@ -30,7 +30,7 @@ export default function About() {
             </div>
         </div>
         <div className="w-full hero-img lg:flex-grow lg:flex-shrink">
-          <img class="image-responsive" src="./phx.jpeg" alt="Picture of Phoenix AZ" />
+          <img class="image-responsive" src="./phx.jpeg" alt="Phoenix AZ" />
         </div>
       </div>
     </section>
