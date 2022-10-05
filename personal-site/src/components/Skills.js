@@ -17,7 +17,7 @@ export default function Skills() {
             While being a web developer requires a wide array of skills these are my most refined.
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap xl:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 w-full m-1 custom-50-wrapper border-4 bg-white border-white rounded">
               <div className="bg-white  flex p-4 h-full items-center">

@@ -7,7 +7,7 @@ export const projects = [
       description:
         "A full-stack Social Blogging Platform inspired by sites like DEV.to and Medium using Next.js and Firebase.",
       image: "./nextfire.png",
-      link: "https://jsbootcamp.com",
+      link: "#",
     },
     {
       title: "Trails of Arizona App",
@@ -15,7 +15,7 @@ export const projects = [
       description:
         "An interactive map of offroading trails in Arizona. Built using a from-scratch Node server and Mapbox API",
       image: "./mapbox.gif",
-      link: "https://pythonbootcamp.com",
+      link: "#",
     }
 ];
 
