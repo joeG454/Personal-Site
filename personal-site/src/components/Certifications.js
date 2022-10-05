@@ -16,7 +16,7 @@ export default function Certifications() {
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           </p>
         </div>
-        <div className="md:w-1/2 w-full sm:mx-auto sm:mb-2">
+        <div className="lg:w-1/2 w-full sm:mx-auto sm:mb-2">
         {certs.map((cert) => (
             <div className="cert-wrapper flex flex-wrap border-4 border-gray-800 mb-3 mx-auto justify-center">
                 <div className="cert-icon sm:basis-1/3 self-center py-3">

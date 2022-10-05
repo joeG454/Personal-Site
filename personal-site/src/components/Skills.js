@@ -19,7 +19,7 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 w-full border-4 m-1 border-gray-800 skill-wrapper">
+            <div key={skill} className="p-2 w-full border-4 m-1 border-gray-800 custom-50-wrapper">
               <div className="bg-white  flex p-4 h-full items-center">
                 <BadgeCheckIcon className="text-orange-500 w-6 h-6 flex-shrink-0 mr-4" />
                 <span className="title-font font-medium text-black">

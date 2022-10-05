@@ -1,7 +1,7 @@
 // src/components/Testimonials
 
 import React from "react";
-import { PlusIcon, UsersIcon, MinusIcon } from "@heroicons/react/solid";
+import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
 
 export default function Testimonials() {
@@ -14,36 +14,28 @@ export default function Testimonials() {
                 </h1>
                 <div className="flex flex-wrap m-4">
                     {testimonials.map((testimonial) => (
-                        <div className="p-4 skill-wrapper w-full border-4 border-gray-800 m-1">
+                        <div className="custom-50-wrapper w-full m-1 testimonial-wrapper">
                             <div className="h-full bg-white bg-opacity-40 p-8 ">
+                                <TerminalIcon className="block w-8 text-neutral-900 mb-4" />
                                 <p className="leading-relaxed mb-6 testimonial">{testimonial.quote}
                                     <span className="dots font-medium">...</span>
                                     <span className="hidden hidden-text">{testimonial.extra}</span>
+                                    <span className="testimonial-readmore font-semibold">Read more</span>
                                 </p>
-                                <div class="flex">
-                                    <div className="inline-flex items-center">
-                                        <img
-                                        alt="testimonial"
-                                        src={testimonial.image}
-                                        className="w-12 -full flex-shrink-0 object-cover object-center"
-                                        />
-                                        <span className="flex-grow flex flex-col pl-4">
-                                        <span className="title-font font-medium text-black">
-                                            {testimonial.name}
-                                        </span>
-                                        <span className="text-neutral-900 text-sm uppercase">
-                                            {testimonial.company}
-                                        </span>
-                                        </span>
-                                    </div>
-                                    <div class="collapsible-icon">
-                                        <div class="plus">
-                                            <PlusIcon className="block w-8 text-neutral-900 mb-4" />
-                                        </div>
-                                        <div class="minus hidden">
-                                            <MinusIcon className="block w-8 text-neutral-900 mb-4" />
-                                        </div>
-                                    </div>
+                                <div className="inline-flex items-center">
+                                    <img
+                                    alt="testimonial"
+                                    src={testimonial.image}
+                                    className="w-12 -full flex-shrink-0 object-cover object-center"
+                                    />
+                                    <span className="flex-grow flex flex-col pl-4">
+                                    <span className="title-font font-medium text-black">
+                                        {testimonial.name}
+                                    </span>
+                                    <span className="text-neutral-900 text-sm uppercase">
+                                        {testimonial.company}
+                                    </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>

@@ -10,7 +10,7 @@
     height: 100%;
 }
 
-.skill-wrapper {
+.custom-50-wrapper {
     width: 49%;
 }
 
@@ -20,4 +20,64 @@
 
 .hero-img {
     background-color: #f3f3f3;
+}
+
+.image-responsive {
+    width: 100%;
+    margin: auto;
+}
+
+.testimonial-wrapper {
+    cursor: pointer;
+}
+
+.testimonial-wrapper:hover .testimonial-readmore{
+    text-decoration: underline;
+}
+
+.arrow-link:hover .arrow {
+    transform: translate(5px,0);
+    -webkit-transform: translate(5px,0); /** Chrome & Safari **/
+    -o-transform: translate(5px,0); /** Opera **/
+    -moz-transform: translate(5px,0);
+}
+
+.arrow {
+    transition: all .33s ease-in-out;
+}
+
+a.underline-grow{
+    position: relative;
+}
+
+.underline-grow:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(249, 115, 22);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.underline-grow:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.btn-purple:hover {
+    background-color: rgb(99, 102, 241);
+}
+
+.btn-purple {
+    transition: all .33s ease-in-out;
+}
+
+@media (max-width: 524px) {
+    .custom-50-wrapper {
+        width: 50%;
+    }
 }
