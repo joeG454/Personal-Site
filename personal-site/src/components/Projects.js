@@ -11,7 +11,7 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Focusing on React.js, Next.js, and other web frameworks I prefer to use my personal projects as opportunites for growth as well as entertainment.</p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">I prefer to use my personal projects as opportunites for growth and entertainment, focusing on React.js, Next.js, and other web frameworks.</p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
