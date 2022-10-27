@@ -2,11 +2,11 @@
 
 export const projects = [
     {
-      title: "Blog App",
-      subtitle: "Next.js and Firebase (WiP)",
+      title: "Sorting Algorithms Visualized",
+      subtitle: "React and Typescript",
       description:
-        "A full-stack Social Blogging Platform inspired by sites like DEV.to and Medium using Next.js and Firebase.",
-      image: "./nextfire.png",
+        "A visualization of basic sorting algorithms built in React with Typescript",
+      image: "./visual-sort-final.gif",
       link: "#",
     },
     {
@@ -15,6 +15,14 @@ export const projects = [
       description:
         "An interactive map of offroading trails in Arizona. Built using a from-scratch Node server and Mapbox API",
       image: "./mapbox.gif",
+      link: "#",
+    },
+    {
+      title: "Blog App",
+      subtitle: "Next.js and Firebase (WiP)",
+      description:
+        "A full-stack Social Blogging Platform inspired by sites like DEV.to and Medium using Next.js and Firebase.",
+      image: "./nextfire.png",
       link: "#",
     }
 ];
